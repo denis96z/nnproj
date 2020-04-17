@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  nnrpoj:
+    image: "nnproj-frontend"
+    ports:
+      - "80:80"
+    restart: always
+  nnproj-backend:
+    image: "nnproj-backend"
+    restart: always

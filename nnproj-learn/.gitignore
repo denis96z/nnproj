@@ -1,0 +1,31 @@
+### IDE ###
+/.idea/
+/.vscode/
+/.vim/
+
+### virtualenv ###
+/venv/
+
+### python ###
+/__pycache__/
+
+### data ###
+/data/
+
+### tensorflow ###
+/tensorlog/
+
+### keras ###
+/checkpoint/
+
+### keract ###
+/keract/
+
+### model ###
+/model/
+
+### fonts ###
+/fonts/
+
+### pixels ###
+/pixels/

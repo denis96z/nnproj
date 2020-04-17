@@ -1,0 +1,31 @@
+<div class="content" role="main">
+  <div class="container">
+    <br>
+    <div class="row d-flex justify-content-center">
+      <img [src]="imageURL" style="max-width: 100%; max-height: 30%" [alt]="noImageText">
+    </div>
+    <br>
+    <div class="row d-flex justify-content-center">
+      <input type="file" class="btn btn-info" (change)="onFileNameChange($event)">
+    </div>
+    <br>
+    <div class="row d-flex justify-content-center">
+      <table class="table col-md-6">
+        <tbody>
+        <tr>
+          <th scope="row">Тип ТС</th>
+          <td>{{ vehicleType }}</td>
+        </tr>
+        <tr>
+          <th scope="row">Стандарт ГРЗ</th>
+          <td>{{ licensePlateStd }}</td>
+        </tr>
+        <tr>
+          <th scope="row">Символы ГРЗ</th>
+          <td>{{ licensePlateChars }}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
